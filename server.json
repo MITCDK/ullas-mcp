@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "dk.ullasopskrifter/recipes",
+  "title": "Ullas Opskrifter (Danish recipes)",
+  "description": "Read-only access to Danish recipes, ingredients and categories from ullasopskrifter.dk: search, browse and fetch recipes.",
+  "version": "1.0.0",
+  "websiteUrl": "https://ullasopskrifter.dk",
+  "repository": {
+    "url": "https://github.com/MITCDK/ullas-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/MITCDK/ullas-mcp/main/assets/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ullasopskrifter.dk/mcp"
+    }
+  ]
+}
